@@ -56,7 +56,7 @@
 	    align-items: center;
 	    justify-content: space-between;
 	    background: var(--bg-color);
-	    padding: 18px 100px;
+	    padding: 18px 10%;
 	    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.1);
 	}
 
@@ -79,12 +79,6 @@
 
 	.navbar a:hover {
 	    color: var(--main-color);
-	}
-
-	#menu-icon {
-	    font-size: 2rem;
-	    cursor: pointer;
-	    display: none;
 	}
 
 	.home {
@@ -130,6 +124,10 @@
 	    width: 100%;
 	}
 
+    .about-text {
+        padding-left: 20px;
+    }
+
 	.about-text span {
 	    color: var(--main-color);
 	    font-weight: 500;
@@ -160,9 +158,11 @@
 	    padding: 20px;
         margin-top: 102px;
 	    text-align: center;
-        background-color: #FFF;
+        background-color: #EEE;
 	}
 
     .copyright p {
-        background-color: #FFF;
+        background-color: #EEE;
+        margin-top: 0;
+        text-align: center;
     }

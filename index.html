@@ -11,14 +11,14 @@
     <link href="assets/images/favicon.jpg?v=2" rel="shortcut icon" type="image/x-icon">
 
     <link href="assets/styles/index.css" media="all" rel="stylesheet">
+    <link href="assets/styles/cookies.css" media="all" rel="stylesheet">
 
     <link href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 
-    <script src="assets/scripts/index.js" defer></script>
+    <script src="assets/scripts/cookies.js" defer></script>
 
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
@@ -28,9 +28,41 @@
 </head>
 
 <body>
+    <div id = "overlay">
+        <div id = "open-modal">
+            <form class = "open-form">
+                <h2> Cookies </h2>
+                <br>
+                <p> Cookies help enhance your experience on our website. We use cookies for analytics purposes. Your information will not be shared. </p>
+                <br>
+                <input type = "button" id = "open-accept" value = "Accept"/>
+                <input type = "button" id = "open-preferences" value = "Preferences"/>
+            </form>
+        </div>
+
+        <div id = "preferences-modal">
+            <form id = "preferences-form">
+                <h2> Manage Preferences </h2>
+                <br>
+                <input checked id = "height-cookie" type = "checkbox">
+                <label for = "height-cookie">Display Height</label>
+                <br>
+                <input checked id = "width-cookie" type = "checkbox">
+                <label for = "width-cookie">Display Width</label>
+                <br>
+                <input checked id = "browser-cookie" type = "checkbox">
+                <label for = "browser-cookie">Browser</label>
+                <br>
+                <input checked id = "os-cookie" type = "checkbox">
+                <label for = "os-cookie">Operating System</label>
+                <br> <br>
+                <input type = "button" id = "preferences-save" value = "Save"/>
+            </form>
+        </div>
+    </div>
+
     <header>
         <a href="#" class="logo">PTEC Pizzeria</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
 
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
