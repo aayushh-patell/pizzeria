@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>GPS</title>
+    <link href="assets/images/favicon.jpg?v=2" rel="shortcut icon" type="image/x-icon">
+    <link href="assets/styles/index.css" media="all" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <script src="assets/scripts/index.js" defer></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/styles/new.css">
+</head>
+
+<body>
+
+    <dialog class="modal" id="map-modal">
+        <div id='map'></div>
+        <div class="pulsating-circle" id="user-icon"></div>
+        <div class="lds-ring" id="loading-animation">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </dialog>
+
+    <div id="wrapper">
+        <div class="hero-banner">
+            <div class="overlay">
+                <div class="hero-container">
+                    <header>
+                        <a href="#" class="logo">Aayush's Pizzeria</a>
+                        <div class="bx bx-menu" id="menu-icon"></div>
+
+                        <ul class="navbar">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                        </ul>
+                    </header>
+
+                    <section class="home" id="home">
+                        <div class="home-text">
+                            <h1>World Famous Pizzas</h1>
+                            <h2>Come try our pizzas</h2>
+
+                            <a href="#" class="btn" id="try-btn">View Locations</a>
+                        </div>
+                        <div class="home-img">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80.png" alt="">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
