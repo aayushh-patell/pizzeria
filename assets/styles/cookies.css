@@ -1,3 +1,5 @@
+
+
 #overlay {
     position: fixed;
     width: 100%;
@@ -10,7 +12,7 @@
     place-items: center;
     display: none;
 }
-
+ 
 #open-modal, #preferences-modal {
     background-color: #EEE;
     width: 320px;
@@ -20,7 +22,7 @@
     display: none;
     place-items: center;
 }
-
+ 
 .open-form, #preferences-form {
     height: 265px;
     width: 305px;
@@ -29,11 +31,11 @@
     bottom: 7.5px;
     right: 7.5px;
 }
-
+ 
 #preferences-form input, #preferences-form label {
     display: inline-block;
 }
-
+ 
 .open-form input {
     width: calc(50% - 2.4px);
     height: 40px;
@@ -42,17 +44,17 @@
     margin-top: 10px;
     font-weight: 600;
 }
-
+ 
 .open-form p, #preferences-form p {
     font-size: 0.9em;
 }
-
+ 
 #open-accept {
     background-color: #ffb411;
     color: #FFF;
     transition: all 0.3s ease;
 }
-
+ 
 #open-preferences {
     background-color: #EEE;
     border: solid 1px #ffb411;
@@ -60,16 +62,16 @@
     border-radius: 10px;
     transition: all 0.3s ease;
 }
-
+ 
 #open-accept:hover {
     background-color: #ffd271;
 }
-
+ 
 #open-preferences:hover {
     border: solid 1px #ffd271;
     color: #ffd271;
 }
-
+ 
 #preference-form input {
     width: calc(50% - 2.4px);
     height: 40px;
@@ -79,7 +81,7 @@
     font-weight: 600;
     font-size: 0.8em;
 }
-
+ 
 #preferences-save {
     width: calc(50% - 2.4px);
     height: 40px;
@@ -91,7 +93,7 @@
     color: #FFF;
     transition: all 0.3s ease;
 }
-
+ 
 #preferences-save:hover {
     background-color: #ffd271;
 }
