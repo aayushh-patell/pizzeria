@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+ 
 *:not(dialog) {
     margin: 0;
     border: 0;
@@ -10,11 +10,11 @@
     vertical-align: baseline;
     transition: all .2s ease-in-out;
 }
-
+ 
 *, body {
     font-family: 'Nunito Sans', Lato, sans-serif;
 }
-
+ 
 h1, h2, div, p, a, li {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

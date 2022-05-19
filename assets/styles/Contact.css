@@ -1,7 +1,14 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+ 
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -10,7 +17,7 @@ input[type=text], select, textarea {
   margin: 7px 0;
   resize: vertical;
 }
-
+ 
 input[type=submit] {
   background-color: #ffb411;
   color: white;
@@ -20,29 +27,29 @@ input[type=submit] {
   margin: 7px 0;
   cursor: pointer;
 }
-
+ 
 .container {
   border-radius: 5px;
   background-color: #fff;
   padding: 20px;
 }
-
-
+ 
+ 
 section {
   padding: 80px 0 0 0;
   background-color: #fff;
 }
-
+ 
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
+ 
 .col {
   width: 100%;
   padding: 15px;
 }
-
+ 
 .col-content {
   position: relative;
   width: 100%;
@@ -53,20 +60,20 @@ section {
   display: flex;
   flex-direction: column;
 }
-
+ 
 .content h3 {
   font-size: 22px;
   color: #303336;
   font-weight: 700;
 }
-
+ 
 .content p {
   margin-top: 9px;
   font-size: 18px;
   color: #303336;
   font-weight: 500;
 }
-
+ 
 .button a {
   display: inline-block;
   width: 120px;
@@ -85,14 +92,17 @@ section {
   cursor: pointer;
   transition: all 2.5 ease-in-out;
 }
-.form h2{
+ 
+.form h2 {
   font-size: 24px;
   font-weight: 600;
 }
-iframe{
-  margin-top:10px;
+ 
+iframe {
+  margin-top: 10px;
 }
-.form-container{
+ 
+.form-container {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -100,104 +110,124 @@ iframe{
   background-color: #fff;
   top: 50%;
 }
-
-
-.form p{
+ 
+ 
+.form p {
   margin-top: 4px;
   font-size: 18px;
   font-weight: 400;
 }
-
-input[type="text"]:valid, input[type="email"]:valid{
-background: #fff url("checkmark.png") no-repeat 96% center;
-background-size: 12px 12px;
+ 
+input[type="text"]:valid,
+input[type="email"]:valid {
+  background: #fff url("checkmark.png") no-repeat 96% center;
+  background-size: 12px 12px;
 }
-
-.left-form{
+ 
+.left-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-
-form{
+ 
+form {
   margin-top: 15px;
   font-size: 0;
 }
-
-textarea{
-resize: none;
-height: 150px !important;
-padding-top: 10px !important;
+ 
+textarea {
+  resize: none;
+  height: 150px !important;
+  padding-top: 10px !important;
 }
-
-.form-container{
-  padding:20px;
+ 
+.form-container {
+  padding: 20px;
 }
-
-input, textarea{
+ 
+input,
+textarea {
   width: 100%;
-  height:50px;
+  height: 50px;
   padding: 0 15px;
   background-color: #fff;
   border: 1px solid #bbb;
   border-radius: 4px;
-  font-size:16px;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
   transition: background-color .25 ease-in-out;
 }
-
-input:focus{
+ 
+input:focus {
   border: 1px solid #ffb411;
 }
-
-input[type="submit"]{
-  width:110px;
-  height:46px;
-  text-align:center;
+ 
+input[type="submit"] {
+  width: 110px;
+  height: 46px;
+  text-align: center;
   background-color: #fff;
   font-weight: 600;
   letter-spacing: .2;
-  color:#303336;
+  color: #303336;
   cursor: pointer;
 }
-
-input[type="submit"]{
+ 
+input[type="submit"] {
   background-color: #ffb411;
   color: #fff;
 }
-
-input[type="submit"]:hover{
+ 
+input[type="submit"]:hover {
   background-color: #ffa400;
 }
-
-.buttons{
+ 
+.buttons {
   text-align: left;
   margin-top: 15px;
 }
-
-.contact-container{
+ 
+.contact-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   margin: 0 auto;
 }
-
-.contact-text-container{
+ 
+.contact-text-container {
   margin: 15px 0;
 }
-
-.contact-container{
+ 
+.contact-container {
   padding-left: 15px;
   padding-right: 15px;
   height: -100px;
 }
-
+ 
 .hero-banner-article {
   height: 745px;
   position: relative;
   top: -60px;
   z-index: 2;
 }
+ 
+.map {
+  width: 100%;
+  height: 320px;
+  background-color: #286FF2;
+  border-radius: 10px;
+  padding-left: 20px;
+  position: relative;
+  top: 50px;
+}
+ 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
